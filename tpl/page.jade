@@ -1,0 +1,24 @@
+doctype html
+html
+
+	head
+
+		title= "NodeTalk"
+
+		link(rel='stylesheet' href='style.css')
+
+		script(src='/client.js')
+		script(src='/socket.io/socket.io.js')
+		script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
+		script(src='pixi.min.js')
+
+	body
+
+		div.console
+
+			div.chat
+
+				div.chatbox(id="chatbox")
+				div.notifications(id="notifications")
+				input.message(id="message", placeholder="Type your message here")
+				button.send(id="send") Send

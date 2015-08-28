@@ -1,0 +1,11 @@
+{
+    "name": "nodetalk",
+    "version": "0.0.0",
+    "description": "Multiplayer Game",
+    "dependencies": {
+        "socket.io": "latest",
+        "express": "latest",
+        "jade": "latest"
+    },
+    "author": "Michael Toscano"
+}
